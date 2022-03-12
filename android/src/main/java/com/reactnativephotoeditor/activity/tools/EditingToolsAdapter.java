@@ -29,7 +29,7 @@ public class EditingToolsAdapter extends RecyclerView.Adapter<EditingToolsAdapte
     mToolList.add(new ToolModel("Formas", R.drawable.ic_brush, ToolType.SHAPE));
     mToolList.add(new ToolModel("Apagar", R.drawable.ic_eraser, ToolType.ERASER));
     mToolList.add(new ToolModel("Filtros", R.drawable.ic_colorfilter, ToolType.FILTER));
-    mToolList.add(new ToolModel("Adesivos", R.drawable.ic_sticker, ToolType.STICKER));
+    mToolList.add(new ToolModel("Logos", R.drawable.ic_sticker, ToolType.STICKER));
     mToolList.add(new ToolModel("Texto", R.drawable.ic_smallcaps, ToolType.TEXT));
   }
 
