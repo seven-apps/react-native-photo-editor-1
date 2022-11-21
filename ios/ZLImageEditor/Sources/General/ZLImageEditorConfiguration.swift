@@ -60,7 +60,7 @@ public class ZLImageEditorConfiguration: NSObject {
         }
     }
     
-    private var pri_editImageDrawColors: [UIColor] = [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(80, 169, 56), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
+    private var pri_editImageDrawColors: [UIColor] = [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(181, 43, 51), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
     /// Draw colors for image editor.
     @objc public var editImageDrawColors: [UIColor] {
         set {
@@ -68,7 +68,7 @@ public class ZLImageEditorConfiguration: NSObject {
         }
         get {
             if pri_editImageDrawColors.isEmpty {
-                return [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(80, 169, 56), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
+                return [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(181, 43, 51), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
             } else {
                 return pri_editImageDrawColors
             }
@@ -93,7 +93,7 @@ public class ZLImageEditorConfiguration: NSObject {
         }
     }
     
-    private var pri_textStickerTextColors: [UIColor] = [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(80, 169, 56), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
+    private var pri_textStickerTextColors: [UIColor] = [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(181, 43, 51), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
     /// Text sticker colors for image editor.
     @objc public var textStickerTextColors: [UIColor] {
         set {
@@ -101,7 +101,7 @@ public class ZLImageEditorConfiguration: NSObject {
         }
         get {
             if pri_textStickerTextColors.isEmpty {
-                return [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(80, 169, 56), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
+                return [.white, .black, zlRGB(241, 79, 79), zlRGB(243, 170, 78), zlRGB(181, 43, 51), zlRGB(30, 183, 243), zlRGB(139, 105, 234)]
             } else {
                 return pri_textStickerTextColors
             }
@@ -132,7 +132,7 @@ public class ZLImageEditorConfiguration: NSObject {
     @objc public var showClipDirectlyIfOnlyHasClipTool = false
     
     /// The background color of edit done button.
-    @objc public var editDoneBtnBgColor: UIColor = zlRGB(80, 169, 56)
+    @objc public var editDoneBtnBgColor: UIColor = zlRGB(181, 43, 51)
     
     @objc public var editDoneTitleColor: UIColor = .black
 }
